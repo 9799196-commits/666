@@ -8,7 +8,7 @@ echo "========== apoolminer 自动安装并注册为服务 =========="
 ACCOUNT="${1:-CP_desb91pu36}"
 INSTALL_DIR="/opt/apoolminer"
 SERVICE_FILE="/etc/systemd/system/apoolminer.service"
-POOL="47.238.243.97:9955" # 注意：脚本中的算法参数是 --algo xmr，但矿池地址qubic.eu.apool.net:8080是Qubic矿池。请确保算法和矿池匹配。
+POOL="47.238.243.97:9999" # 注意：脚本中的算法参数是 --algo xmr，但矿池地址qubic.eu.apool.net:8080是Qubic矿池。请确保算法和矿池匹配。
 
 # 目录清理或创建
 if [ -d "$INSTALL_DIR" ]; then
